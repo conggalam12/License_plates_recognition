@@ -1,8 +1,8 @@
-# /License_plates_recognition
+# License_plates_recognition
 Vehicle license plate recognition with Yolo v5
 # Clone the repository
 ```
-git clone https://github.com/conggalam12//License_plates_recognition.git
+git clone https://github.com/conggalam12/License_plates_recognition.git
 ```
 # Install requirement
 ```
@@ -12,18 +12,17 @@ pip install -r requirements.txt
 ```
 mkdir weights
 cd weights
-wget https://github.com/conggalam12/Yolo-v5/releases/download/weights/bienso.pt
+wget https://github.com/conggalam12/License_plates_recognition/releases/download/weights/model_detector.pt
+wget https://github.com/conggalam12/License_plates_recognition/releases/download/weights/model_ocr.pt
 ```
 # How to use
 ```
-python detect.py --source [path_image] --weights [path to weight] 
+python demo_fix.py  
 ```
-The result save in folder run/detect 
-# Change folder save
-```
-python detect.py --source [path_image] --weights [path to weight] --project [path to folder]
-```
-# Example 
-![detect](https://github.com/conggalam12/Yolo-v5/blob/main/runs/detect/exp/5.jpg)
 
-![detect](https://github.com/conggalam12/Yolo-v5/blob/main/runs/detect/exp2/22.jpg)
+# Example 
+![detect](https://github.com/conggalam12/License_plates_recognition/blob/main/result_image/demo.jpg)
+
+![detect](https://github.com/conggalam12/License_plates_recognition/blob/main/result_image/demo2.jpg)
+
+![detect](https://github.com/conggalam12/License_plates_recognition/blob/main/result_image/demo3.jpg)
