@@ -1,8 +1,8 @@
-# Yolo-v5
+# /License_plates_recognition
 Vehicle license plate recognition with Yolo v5
 # Clone the repository
 ```
-git clone https://github.com/conggalam12/Yolo-v5.git
+git clone https://github.com/conggalam12//License_plates_recognition.git
 ```
 # Install requirement
 ```
